@@ -1,3 +1,3 @@
 <h1><%= @post.title %></h1>
-<p>Last updated: <%= @post.updated_at %></p>
+<p>Last updated: <%= @post.updated_at.strftime() %></p>
 <p><%= @post.description %></p>
